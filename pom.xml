@@ -30,10 +30,10 @@
     </dependency>
 
     <dependency>
-      <groupId>org.aspectj</groupId>
+      <groupId>aspectj</groupId>
       <artifactId>aspectjweaver</artifactId>
-      <version>1.9.22.1</version>
-      <scope>runtime</scope>
+      <version>1.5.4</version>
     </dependency>
+
   </dependencies>
 </project>

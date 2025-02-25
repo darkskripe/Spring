@@ -1,13 +1,11 @@
-package capitol2.pointCuts2;
+package capitol2.Exam;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan("capitol2.pointCuts2")
 @EnableAspectJAutoProxy
-@PropertySource("classpath:capitol2/my.proprieties")
-public class MyConf {
+@ComponentScan("capitol2.Exam")
+public class MyConfig {
 }
